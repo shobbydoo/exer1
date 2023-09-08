@@ -13,7 +13,7 @@ document.getElementById('sumButton').addEventListener("click", displaySum);
   let secondNum = Number(document.getElementById('secondNum').innerHTML)
 
   let total = firstNum - secondNum;
-  document.getElementById("answer").innerHTML = ` ${firstNum} - ${secondNum}, equals to ${total}` ;
+  document.getElementById("diffanswer").innerHTML = ` ${firstNum} - ${secondNum}, equals to ${total}` ;
 }
 
 document.getElementById('diffButton').addEventListener("click", displayDiff);
