@@ -6,8 +6,6 @@
   document.getElementById("answer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
 }
 
-document.getElementById('sumButton').addEventListener("click", displaySum);
-
  function displayDiff() {
  let firstNum = Number(document.getElementById('firstNum').innerHTML)
   let secondNum = Number(document.getElementById('secondNum').innerHTML)
@@ -16,7 +14,6 @@ document.getElementById('sumButton').addEventListener("click", displaySum);
   document.getElementById("result").innerHTML = ` ${firstNum} - ${secondNum}, equals to ${total}` ;
 }
 
-document.getElementById('multButton').addEventListener("click", displayMult);
 
  function displayMult() {
  let firstNum = Number(document.getElementById('firstNum').innerHTML)
@@ -26,5 +23,8 @@ document.getElementById('multButton').addEventListener("click", displayMult);
   document.getElementById("product").innerHTML = ` ${firstNum} * ${secondNum}, equals to ${total}` ;
 }
 
+
+document.getElementById('sumButton').addEventListener("click", displaySum);
+document.getElementById('diffButton').addEventListener("click", displayDiff);
 document.getElementById('multButton').addEventListener("click", displayMult);
     
