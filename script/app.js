@@ -1,6 +1,6 @@
  function displaySum() {
-  let sumfirstNum = Number(document.getElementById('firstNum').innerHTML)
-  let sumsecondNum = Number(document.getElementById('secondNum').innerHTML)
+  let sumfirstNum = Number(document.getElementById('sumfirstNum').innerHTML)
+  let sumsecondNum = Number(document.getElementById('sumsecondNum').innerHTML)
 
   let total = sumfirstNum + sumsecondNum;
   document.getElementById("sumanswer").innerHTML = ` ${sumfirstNum} + ${sumsecondNum}, equals to ${sumtotal}` ;
