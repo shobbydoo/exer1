@@ -1,19 +1,19 @@
  function displaySum() {
-  let sumfirstNum = Number(document.getElementById('sumfirstNum').innerHTML)
-  let sumsecondNum = Number(document.getElementById('sumsecondNum').innerHTML)
+  let firstNum = Number(document.getElementById('firstNum').innerHTML)
+  let secondNum = Number(document.getElementById('secondNum').innerHTML)
 
-  let total = sumfirstNum + sumsecondNum;
-  document.getElementById("sumanswer").innerHTML = ` ${sumfirstNum} + ${sumsecondNum}, equals to ${sumtotal}` ;
+  let total = firstNum + secondNum;
+  document.getElementById("sumanswer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
 }
 
 document.getElementById('sumButton').addEventListener("click", displaySum);
 
  function displayDiff() {
-  let difffirstNum = Number(document.getElementById('difffirstNum').innerHTML)
-  let diffsecondNum = Number(document.getElementById('diffsecondNum').innerHTML)
+ let firstNum = Number(document.getElementById('firstNum').innerHTML)
+  let secondNum = Number(document.getElementById('secondNum').innerHTML)
 
-  let total = difffirstNum - diffsecondNum;
-  document.getElementById("diffanswer").innerHTML = ` ${difffirstNum} - ${diffsecondNum}, equals to ${difftotal}` ;
+  let total = firstNum + secondNum;
+  document.getElementById("sumanswer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
 }
 
 document.getElementById('diffButton').addEventListener("click", displayDiff);
